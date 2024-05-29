@@ -11,7 +11,7 @@ const theme = extendTheme({
     global: {
       body: {
         transitionProperty: "all",
-        transitionDuration: "slow",
+        transitionDuration: "1000ms",
       },
     },
   },
