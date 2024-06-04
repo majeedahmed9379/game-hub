@@ -22,7 +22,7 @@ const GamesGrid = ({ gaemQuery }: Props) => {
       )}
       <SimpleGrid
         columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-        spacing={3}
+        spacing={6}
         padding={"20px"}
       >
         {isLoading &&
